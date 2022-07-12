@@ -6,6 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+//Instead of using database, i have chosen to use an object
+//Preferrable would be a database of any sort where all data is fetched from 
+//and then all data is sent forward to the client side.
 router.get('/videos', function(req, res, next) {
   console.log("salam from backend");
   const videos = [
