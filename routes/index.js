@@ -14,7 +14,7 @@ router.get('/videos', function(req, res, next) {
   const videos = [
     {
     id: 1,
-    image : "public/images/img_avatar.png",
+    image : "/images/img_avatar.png",
     title: "Loading data from catalog",
     description: "This is some description text...",
     product: "Qlik catalog",
@@ -23,7 +23,7 @@ router.get('/videos', function(req, res, next) {
   },
   {
     id: 2,
-    image : "public/images/img_avatar.png",
+    image : "/images/img_avatar.png",
     title: "Get to know the loop block",
     description: "This is some description text...",
     product: "Qlik catalog",
@@ -32,7 +32,7 @@ router.get('/videos', function(req, res, next) {
   },
   {
     id: 3,
-    image : "public/images/img_avatar2.png",
+    image : "/images/img_avatar2.png",
     title: "This is another TITLE!!!",
     description: "This is some description text...",
     product: "QlikView",
@@ -41,7 +41,7 @@ router.get('/videos', function(req, res, next) {
   },
   {
     id: 4,
-    image : "public/images/img_avatar2.png",
+    image : "/images/img_avatar2.png",
     title: "Another title",
     description: "This is some description text.",
     product: "Alerting",
